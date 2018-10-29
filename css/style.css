@@ -22,6 +22,16 @@ body {
 	text-decoration: underline;
 }
 
+.hov {
+	color: #fff;
+	transition-duration: 0.2s;
+}
+
+.hov:hover{
+	color: #363636;
+	transition-duration: 0.2s;
+}
+
 .mainSection {
 	color: #fff;
 	width: 100%;
@@ -271,7 +281,7 @@ body {
 	display: none;
 	position: fixed;
 	right: 30px;
-	bottom: 70px;
+	bottom: 73px;
 	color: #fff;
 	background: linear-gradient(to bottom, #d90646, #eb3f2d);
 	text-align: center;
@@ -344,7 +354,6 @@ input.subscribeBtn {
 .nav li a {
 	text-decoration: none;
 	color: #363636;
-	font-weight: bold;
 	font-size: 18px;
 }
 
