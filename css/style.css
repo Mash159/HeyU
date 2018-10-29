@@ -270,11 +270,27 @@ body {
 }
 
 .searchInput {
-	border-radius: 50px;
 	height: 65px;
 	padding-right: 30px;
 	padding-left: 30px;
-	background: rgba(255, 255, 255, 0.4);
+	background: none;
+	border: none;
+	font-size: 24px;
+	color: #fff;
+}
+
+.searchInput:focus {
+	background: none;
+	color: #fff;
+}
+
+.form-control:focus {
+	box-shadow:  0 0 0 0.2rem rgba(0,123,255,.0);
+	outline: 0;
+}
+
+.searchInput::placeholder {
+	color: #fff;
 }
 
 #backToTop {
