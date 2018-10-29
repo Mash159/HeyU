@@ -344,6 +344,8 @@ input.subscribeBtn {
 .nav li a {
 	text-decoration: none;
 	color: #363636;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .nav li a:hover {
@@ -368,6 +370,7 @@ option {
 .custom-select {
 	background: url("../img/11.png") no-repeat right .75rem center
 }
+
 
 
 /*Media queries*/
